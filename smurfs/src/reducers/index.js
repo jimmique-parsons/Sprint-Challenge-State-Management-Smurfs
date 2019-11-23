@@ -14,7 +14,6 @@ const initialState = {
     error: ""
 };
 
-
 export const smurfReducer = (state = initialState, action) => {
     switch (action.type) {
         case FETCH_SMURFS_START:
